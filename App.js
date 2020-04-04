@@ -50,7 +50,7 @@ export default class App extends React.Component{
                             <Text style={
                                 {
                                     
-                                    "fontSize": 20,
+                                    "fontSize": 30,
                                     "color": "rgba(112, 112, 112, 255)"
                                 }
                             } > Email </Text>
