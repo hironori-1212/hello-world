@@ -2,9 +2,21 @@
     "extends":"airbnb",
     "plugins":[
         "react",
-        "jsc-a11y",
+        "jsx-a11y",
         "import"
     ],
+    "rules":{
+        "indent": 0,
+        "no-use-before-define": 0,
+        "react/prefer-stateless-function": 0,
+        "react/jsx-filename-extension": 0,
+        "linebreak-style": 0,
+        "react/jsx-indent": 0,
+        "space-before-blocks": 0,
+        "eol-last": 0,
+        "react/destructuring-assignment": 0,
+        "react/prop-types": 0
+    },    
     "parser": "babel-eslint"
 }
 
